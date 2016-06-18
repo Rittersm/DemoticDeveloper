@@ -1,0 +1,59 @@
+* {
+  /*border:1px solid red*/
+}
+header {
+  height: 525px;
+  background: linear-gradient(
+    rgba(13, 0, 200, 0.50),
+    rgba(13, 0, 200, 0.20)
+    ),
+    url(https://cdn.konux.com/wp-content/uploads/fog-view-1280x500.jpeg) no-repeat;
+  background-size: cover;
+  color: rgb(248, 241, 249);
+}
+#header {
+  padding-top:10px;
+}
+#logo1 {
+  display: inline;
+}
+#logo2 {
+  display: inline;
+  color: rgb(50, 50, 50);
+}
+#about {
+  margin-right: -30px;
+  color: rgb(50, 50, 50)
+}
+#search {
+  margin-top: 6px;
+  color: rgb(50, 50, 50)
+}
+#search h4 {
+  display: inline;
+}
+#lgtitle {
+  margin-top: 140px;
+  font-size: 7vw;
+  font-stretch: extra-condensed;
+  font-weight: bold;
+}
+#subtitle {
+  margin-top: -25px;
+  color: rgb(50, 50, 50);
+  font-size: 16px;
+}
+#post-title {
+  font-size: 6vw;
+  font-family: Impact, Charcoal, sans-serif;
+  line-height: 90%;
+}
+#thumbnail {
+  padding-top: 20px;
+}
+#author {
+  display: inline;
+}
+#author img {
+  width: 30px;
+}
