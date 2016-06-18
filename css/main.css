@@ -43,17 +43,55 @@ header {
   color: rgb(50, 50, 50);
   font-size: 16px;
 }
-#post-title {
+#main {
+  padding-top: 50px;
+}
+#articletitle {
   font-size: 6vw;
   font-family: Impact, Charcoal, sans-serif;
   line-height: 90%;
 }
-#thumbnail {
-  padding-top: 20px;
+#authorpic {
+  width: 30px;
 }
-#author {
+#author1 {
   display: inline;
 }
-#author img {
-  width: 30px;
+#articlebody {
+  padding-top: 30px;
+}
+#textinsert{
+  margin-left: 10px;
+  margin-bottom: -30px;
+  padding: 10px;
+  font-size: 30px;
+  color: rgb(91, 103, 233);
+  border-left: 2px solid rgba(177, 177, 177, 0.7);
+}
+#article button {
+  background-color: rgba(240, 240, 240, 0.7);
+}
+#article button:hover{
+  background-color: rgba(91, 103, 233, 0.5);
+}
+#thumbnail {
+  width: 100px;
+  margin-top: 25px;
+}
+#contactlist {
+  /*margin-left: 850px;*/
+}
+#advertisement {
+  display: inline-block;
+  height: 400px;
+  width: 300px;
+  background: linear-gradient(
+    rgba(13, 0, 200, 0.25),
+    rgba(13, 0, 200, 0.25)
+    ),
+    url(cssimages/advertisement.jpeg) no-repeat;
+  background-size: 100% auto;
+}
+#advertisement:hover {
+  background: url(cssimages/advertisement.jpeg) no-repeat;
 }
