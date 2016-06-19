@@ -101,6 +101,7 @@ hr {
 #footertitle {
   font-size: 6vw;
   font-family: Impact, Charcoal, sans-serif;
+  color:rgba(19, 12, 156, 0.8);
 }
 #footer1 {
   padding: 0;
@@ -129,4 +130,26 @@ hr {
 }
 #footer4:hover {
   -webkit-filter: none;
+}
+#navbar {
+  height: 75px;
+  padding-top: 10px;
+  background-color: rgba(19, 12, 156, 0.75)
+}
+#navbar1 {
+  display: inline-block;
+  margin-top: 10px;
+}
+#navbar2 {
+  display: inline-block;
+  color: rgb(173, 172, 172)
+}
+#navbar a {
+  border-left: 2px solid gray;
+  color: rgb(173, 172, 172);
+  display: inline;
+  font-size: 12px;
+  margin: 0px;
+  padding-left: 10px;
+  padding-right: 0px;
 }
