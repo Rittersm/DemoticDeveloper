@@ -79,19 +79,54 @@ header {
   margin-top: 25px;
 }
 #contactlist {
-  /*margin-left: 850px;*/
+  margin-bottom: 50px;
 }
-#advertisement {
-  display: inline-block;
-  height: 400px;
-  width: 300px;
-  background: linear-gradient(
-    rgba(13, 0, 200, 0.25),
-    rgba(13, 0, 200, 0.25)
-    ),
-    url(cssimages/advertisement.jpeg) no-repeat;
-  background-size: 100% auto;
+#ad {
+  color: rgba(170, 168, 168, 0.5);
 }
-#advertisement:hover {
-  background: url(cssimages/advertisement.jpeg) no-repeat;
+#sidebar {
+  padding-top: 30px;
+}
+#sidebar h4 {
+  color: rgba(91, 103, 233, 0.5);
+}
+#sidebar p {
+  color: rgb(110, 110, 110);
+}
+hr {
+  display: block;
+  margin-top: 50px;
+  border-top: 2px solid rgb(170, 168, 168);
+}
+#footertitle {
+  font-size: 6vw;
+  font-family: Impact, Charcoal, sans-serif;
+}
+#footer1 {
+  padding: 0;
+  -webkit-filter: grayscale(100%);
+}
+#footer1:hover {
+  -webkit-filter: none;
+}
+#footer2 {
+  padding: 0;
+  -webkit-filter: grayscale(100%);
+}
+#footer2:hover {
+  -webkit-filter: none;
+}
+#footer3 {
+  padding: 0;
+  -webkit-filter: grayscale(100%);
+}
+#footer3:hover {
+  -webkit-filter: none;
+}
+#footer4 {
+  padding: 0;
+  -webkit-filter: grayscale(100%);
+}
+#footer4:hover {
+  -webkit-filter: none;
 }
