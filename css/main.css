@@ -106,6 +106,7 @@ hr {
 #footer1 {
   padding: 0;
   -webkit-filter: grayscale(100%);
+  position:relative;
 }
 #footer1:hover {
   -webkit-filter: none;
@@ -113,6 +114,7 @@ hr {
 #footer2 {
   padding: 0;
   -webkit-filter: grayscale(100%);
+  position:relative;
 }
 #footer2:hover {
   -webkit-filter: none;
@@ -120,6 +122,7 @@ hr {
 #footer3 {
   padding: 0;
   -webkit-filter: grayscale(100%);
+  position:relative;
 }
 #footer3:hover {
   -webkit-filter: none;
@@ -127,6 +130,7 @@ hr {
 #footer4 {
   padding: 0;
   -webkit-filter: grayscale(100%);
+  position:relative;
 }
 #footer4:hover {
   -webkit-filter: none;
@@ -138,11 +142,10 @@ hr {
 }
 #navbar1 {
   display: inline-block;
-  margin-top: 10px;
 }
 #navbar2 {
   display: inline-block;
-  color: rgb(173, 172, 172)
+  color: rgb(173, 172, 172);
 }
 #navbar a {
   border-left: 2px solid gray;
